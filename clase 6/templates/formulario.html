@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Registro de Estudiante</h1>
+
+    <form action="/registro" method="post">
+        <label> Nombre: </label>
+        <input
+        type="text"
+        id ="nombre"
+        name="nombre"
+        placeholder="Ingrese su nombre"
+        required
+        >
+    <br>
+    <br>
+    <label> Correo electronico: </label>
+    <input
+        type="Email"
+        name= "Correo"
+        >
+
+    <br>
+    <br>
+
+    <label> Clave:</label>
+    <input
+        type="password"
+        name="Clave"
+        >
+    <br>
+    <br>
+    Texto Numero 
+
+    <input type="number">
+    <br>
+    <br>
+    Fecha
+    <input type="date">
+    <br>
+    <br>
+    Tilde en cuadro
+    <input type="checkbox">
+    <br>
+    <br>
+    Tilde en circulo
+    <input type="radio">
+    
+    <br>
+    Mensaje
+    <textarea
+        id="Mensaje"
+        name="Mensaje"
+        ></textarea>
+    <br>
+    <br>
+    Curso   
+    <label>
+        <select id="Curso" name="Curso">
+            <option value="1">
+                Primero
+            </option>
+            <option value="2">
+                Segundo
+            </option>
+            <option value="3">
+                Tercero
+            </option>
+        </select>
+
+    </label>
+<br>
+<br>
+
+
+
+
+    <button type="submit">
+        Enviar
+    </button>
+        
+
+</form>
+</body>
+</html>
